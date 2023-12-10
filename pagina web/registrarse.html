@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>registrate</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <h1 id="titulo">hola,nos alegra que te intereses registrarte en nuestro sitio web pero antes debemos de conocerte mejor :)</h1>
+<div class="formulario">
+    <div class="inputs">
+              <div id="infopersonal">
+            <h3>cuentanos un poco sobre ti</h5>
+          <input class="form" type="text"  placeholder=" nombres" required>
+          <input class="form" type="text" placeholder=" apellidos"required>
+          <p id="tfdn">fecha de nacimiento</p>
+          <input id="fechadenacimiento" class="form" type="date"  placeholder=" fecha de nacimiento" required>
+          <select id="generos">
+            <option value="">genero (opcional)</option>
+            <option value="">masculino</option>
+            <option value="">femenino</option>
+            <option value="">39 tipos de gays xD</option>
+            <option value="">prefiero no decirlo</option>
+          </select>
+          <input class="form" type="text" placeholder="ciudad" >
+            <input class="form" type="text" placeholder="numero telefonico" >
+        </div>
+        <div class="correoycontra">
+          <input class="form" type="text"  placeholder=" correo electronico" required>
+          <input class="form" type="password" placeholder=" crea una contraseña"required>
+          <input class="form" type="password" placeholder=" repite la contraseña"required> <br>
+          <input id="checkbx" type="checkbox"required>      acepto los terminos y condiciones <br>
+          <a href="iniciarsesion.html">cancelar registro</a><br>
+          <button id="botones">finalizar registro</button>
+         
+        </div>
+    <script src="js/register.js"></script>
+    </div>
+</div>
+</body>
+</html>

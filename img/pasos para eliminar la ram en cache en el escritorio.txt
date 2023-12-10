@@ -1,0 +1,6 @@
+Paso 1: Crea un acceso directo en el escritorio
+Paso 2: Ponle como nombre el siguiente codigo: 
+%windir%\system32\rundll32.exe advapi32.dll, ProcessIdleTasks
+Paso 3: Ejecuta el archivo creado como administrador
+Paso 4: Reinicia tu pc. 
+

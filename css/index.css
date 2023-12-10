@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+  background-color: wheat;
+}
+
+#arriba{
+    background-color: #101110;
+    display: flex;
+}
+
+
+/* elementos de navegacion*/
+/*icono*/
+img{
+    margin: 15px 0;
+    border: none;
+    width: 300px;
+    
+}
+
+/* searchbar*/
+
+#barrabusqueda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+#lupa{
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    border:none;
+    margin-left: -420px;
+    color: #101110;
+}
+
+#buscar{
+    width: 650px;
+    height: 50px;
+    margin: 20px 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+    border: none;    
+
+}
+
+.botones {
+    margin-left: 10px;
+    font-size: 54px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+
+#contenedorfunciones{
+  justify-content: space-between;
+  width: 1300px;
+}
+::placeholder{
+    font-size: 16px;
+    
+ }
+
+ input {
+    padding: 20px;
+    
+  }
+input:focus {
+    outline: none;
+  }
+
+
+  #cajonbotones2{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(32, 32, 32);
+    justify-content: center;
+  }
+
+  #cajonbotones2 > a {
+
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+
+  #botones {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #botones li {
+    display: flex;
+    align-items: center;
+  }
+  
+  #botones li ul {
+    margin-right: 10px;
+  }
+  
+  #botones li ul:last-child {
+    margin-right: 0;
+  }
+
+#categorias{
+  width: 150;
+  height: 25px;
+  border-radius: 10px;
+  border: solid white;
+  color: white;
+  background-color: rgb(32, 32, 32);
+  border: none;
+  text-decoration: NONE;
+  appearance: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#funciones2{
+  display: flex; 
+}
+
+/* contenedor productos y productos*/
+
+#productos{
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+}
+.producto{
+  background-color: white;
+  width: 350px;
+  height: 600px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 20px 5px;
+  
+  }
+.descripcionproducto{
+  margin: 25px 25px;
+  font-size: 23px;
+
+}
+
+.imagenproducto{
+  margin: 20px 20px;
+}
+
+h5 ,span{
+  margin: 15px 10px;
+}
+
+#titulop{
+  margin: 50px 20px;
+ 
+}
+
+#estrellas{
+  font-size: 30px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#estrellas > p {
+  color: black;
+  font-size: 22px;
+  margin: 5px 5px;
+  
+}

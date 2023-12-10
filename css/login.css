@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+body{
+background-color: wheat;
+}
+#titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -50px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 650px;
+    
+    
+}
+input {
+    padding: 10px;
+    text-align: center;
+  }
+input:focus {
+    outline: none;
+  }
+#iniciar{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin: 15px 35%;
+    border: solid black;
+    
+
+}
+
+.form{
+ height: 30px;
+ width: 200px;
+ border-radius: 20px;
+ border: solid black;
+ margin: 15px 25%;
+
+
+ 
+}
+
+::placeholder{
+   font-size: 17px;
+   
+}
+.text{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+#icon1{
+height: 80px;
+width: 80px;
+border-radius: 100%;
+font-size: 36px;
+border: none;
+position: absolute;
+margin-left: 90px;
+margin-top: 2px;
+}
+#icon2{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    font-size: 36px;
+    border: none;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 2px;
+    }
+
+    .usuario{
+      margin-bottom: 60px;
+    }
+
+
+    .contraseña{
+        margin-bottom: 20px;
+
+    }
+
+.arriba > a {
+    width: 200px;
+}

@@ -1,0 +1,15 @@
+.opciones {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+  }
+  
+  .txtopcion {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos dentro de este div */
+  }
+  
+  .txtopcion button,
+  .txtopcion a {
+    margin-right: 10px; /* Espacio entre el botón y el enlace */
+  }
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>olvidaste tu contraseña?</title>
+    <link rel="stylesheet" href="/css/psswd-olvidada.css">
+</head>
+<body>
+    <h1 class="titulos">RECUPERAR CUENTA</h1>
+<div id="ingresarcorreo">
+    <form action="" class="form">
+       <div id="solicitarcodigo">
+          <h2 class="titulos">ingrese su telefono o correo electronico vinculado con  la cuenta para continuar</h2>
+          <input type="text" placeholder="correo o telefono"required><button id="boton">enviar codigo</button>
+       </div>
+            <div class="salir"><a href="iniciarsesion.html">salir</a></div>
+    </form>   
+</div>
+
+<div id="ingresarcodigo">
+    <form action="" class="form">
+        <div id="solicitarcodigo">
+           <h2 class="titulos">ingrese el codigo que recibiste en tu correo o telefono para continuar</h2>
+           <input type="text" placeholder="codigo de 6 digitos"required><button id="boton"> verificar </button>
+        </div>
+             <div id="nocodigo"><a href="">no recibiste el codigo?</a></div>
+             <div id="cancelar"><a href="iniciarsesion.html">cancelar</a></div>
+     </form>   
+</div>
+
+<div id="cambiarcontraseña">
+    <h2 class="titulos3">ingrese su nueva contraseña</h2>
+    <h4 id="escontraseña">debe de tener minimo 8 caracteres, 1 letra mayuscula y 1 numero.</h2>
+    <input type="password" >
+    <h3 class="titulos3">vuelva a ingresar la misma contraseña</h3>
+    <input type="password"><br>
+    <button id="cambiocontraseña">cambiar contraseña</button>
+    <button id="iniciarsesion">iniciar sesion</button>
+
+</div>
+    
+    </body>
+</html>
